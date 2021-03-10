@@ -5,6 +5,10 @@ This document forked from [DRV8840_SurveyNote_R12RIsense.md](DRV8840_SurveyNote_
 
 pmnxis@gmail.com (Jinwoo Park)  2020-09-06
 
+이 문서는 이전 오락실  IoT 동전지폐교환기 시스템 개발도중에 활용된 리소스를 포함 하고 있습니다. GPARK사 와의 협의 후 공개함을 사전에 고지합니다.
+
+This document contains resources used during the development of the IoT coin exchange system in the previous arcade. After consulting with GPARK, we notify you that it will be disclosed in advance.
+
 
 ## Purpose of this example (이 예시의 목적)
 ![Image of DRV8840 Section](DRV8840_SCH_IMAGE.png)
