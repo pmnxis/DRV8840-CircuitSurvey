@@ -1,7 +1,9 @@
 # DRV8840-CircuitSurvey
- Examples of use with Python in embedded circuit design. (DRV8840)
- This document forked from [DRV8840_SurveyNote_R12RIsense.md](DRV8840_SurveyNote_R12RIsense.md).
- pmnxis@gmail.com (Jinwoo Park)  2020-09-06
+Examples of use with Python in embedded circuit design. (DRV8840)
+
+This document forked from [DRV8840_SurveyNote_R12RIsense.md](DRV8840_SurveyNote_R12RIsense.md).
+
+pmnxis@gmail.com (Jinwoo Park)  2020-09-06
 
 
 # Purpose of this example (이 예시의 목적)
