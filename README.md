@@ -6,20 +6,20 @@ This document forked from [DRV8840_SurveyNote_R12RIsense.md](DRV8840_SurveyNote_
 pmnxis@gmail.com (Jinwoo Park)  2020-09-06
 
 
-# Purpose of this example (이 예시의 목적)
+## Purpose of this example (이 예시의 목적)
 ![Image of DRV8840 Section](DRV8840_SCH_IMAGE.png)
 [DRV8840_Schematic.pdf](DRV8840_Schematic.pdf)
 
-KOR : 
-```
+### KOR : 
 DRV8840은 모터구동을 위한 Driver IC이며 R1과 R2, R_ISense (회로도상에서 R18,R19,R16) 의 조정을 통해 최대 전류량을 설정할 수 있다. 하지만 저항은 내가 딱 원하는 저항값을 구할 수 없으며 R_ISense 같은 경우 전류 센싱 저항이므로 최대수용가능한 전류량(Watt)가 있다. 
 본 예시는 원하는 전류량을 시장에서 판매하고있는 저항값 테이블내에서 적합한 조합을 도출한다. 이와 같은 방법은 몬테카를로 방법이라고 통용되기도 한다.
-```
-ENG :
-``` 
+
+
+### ENG :
+ 
 The DRV8840 is a driver IC for motor operation and can be set up by adjusting R1 and R2, R_ISense (R18, R19, R16 on circuits). However, the resistance is not exactly what I want, and in the case of R_ISense, it is a current sensing resistance, so there is a maximum acceptable current amount (Watt). 
 This example derives an appropriate combination within the resistance value table that is selling the desired current volume in the market. This method is sometimes referred to as the Monte Carlo method.
-```
+
 
 ## Conclusion
 R1 : 3.90KΩ, R2 : 6.80KΩ, Vref : 2.0972V
